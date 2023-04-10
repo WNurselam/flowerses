@@ -7,3 +7,36 @@
   font-size: 2em;
   text-align: center;
 }
+
+button.btn {
+  padding: 15px;
+  margin:15px;
+  border-radius: 5px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  box-shadow: rgba(105, 80, 80, 0.35) 0px 5px 15px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+button.primary {
+  background: #8271C1;
+  color: #ffffff;
+}
+button.text {
+  border:none;
+}
+button.dashed {
+  border: 3px dotted rgb(90, 59, 12);
+}
+button.link {
+  border: 1px solid rgb(123, 123, 180);
+  color: rgb(15, 15, 90);
+}
+
+button.default {
+  outline: 0;
+  border: 1px solid #babfc3;
+  color: #202223;
+  background: #ffffff;
+  border-radius: 4px; 
+}
